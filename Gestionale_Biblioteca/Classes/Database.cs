@@ -11,7 +11,7 @@ namespace Gestionale_Biblioteca.Classes
     public class Database
     {
         private MySqlConnection connection;
-        private string connectionString = "Server=corsilg.altervista.org;Database=my_corsilg;Uid=corsilg;Pwd=;";
+        private string connectionString = "Server=localhost;Database=db_film;Uid=root;Pwd=;";
 
         public MySqlConnection GetConnection()
         {
